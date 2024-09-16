@@ -1,9 +1,9 @@
 body{
 	margin: 0;
-	padding: 20px;
+	padding: 0;
 }
 
-.outer-box{
+/* .outer-box{
 	width: fit-content;
 	border: 15px solid blue;
 	background-color: lightblue;
@@ -14,9 +14,15 @@ body{
 	width: 300px;
 	padding: 50px;
 	box-sizing: border-box;
-}
+} */
 
-.content{
+.box {
+	width: 300px;
+	background-color: lightblue;
+	border: 15px solid blue;
+	padding: 50px;
+	margin: 20px;
+	box-sizing: border-box;
 	font-size: 14px;
 	line-height: 1.4;
 }
