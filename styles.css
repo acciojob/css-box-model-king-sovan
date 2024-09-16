@@ -1,2 +1,24 @@
+body{
+	margin: 0;
+	padding: 20px;
+}
 
-/* Your CSS Code here. */
+.outer-box{
+	width: fit-content;
+	border: 20px solid blue;
+	background-color: blue;
+}
+
+.inner-box{
+	width: 300px;
+	padding: 50px;
+	background-color: #20B2AA;
+	box-sizing: border-box;
+}
+
+.content{
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.4;
+}
